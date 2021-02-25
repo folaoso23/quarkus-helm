@@ -10,6 +10,6 @@ entries:
     - quarkus
     name: quarkus
     urls:
-    - https://github.com/folaoso23/quarkus-helm/quarkus-0.0.3.tgz
+    - https://github.com/folaoso23/quarkus-helm/charts/quarkus-0.0.3.tgz
     version: 0.0.3
 generated: "2021-02-25T10:09:51.489054-05:00"
