@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  quarkus:
+  - apiVersion: v2
+    created: "2021-02-25T10:09:51.4904-05:00"
+    description: A Helm chart to build and deploy Quarkus applications
+    digest: 63b70436b389fe0c88456d69e21eaeb9857daa9a510614e43a96232618009b91
+    keywords:
+    - runtimes
+    - quarkus
+    name: quarkus
+    urls:
+    - https://github.com/folaoso23/quarkus-helm/quarkus-0.0.3.tgz
+    version: 0.0.3
+generated: "2021-02-25T10:09:51.489054-05:00"
