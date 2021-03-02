@@ -18,7 +18,7 @@ metadata:
       ]
 {{- end }}
 spec:
-  replicas: 2
+  replicas: {{ .Values.deploy.replicas }}
   selector:
     matchLabels:
       {{- include "quarkus.selectorLabels" . | nindent 6 }}
