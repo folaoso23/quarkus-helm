@@ -5,5 +5,6 @@ metadata:
   labels:
     {{- include "quarkus.labels" . | nindent 4 }}
 data:
-  {{ (.Files.Glob "config/**").AsConfig | indent 2 }} 
-
+  # {{ (.Files.Glob "config/**").AsConfig | indent 2 }} 
+  {{ printf "dummy.yaml" }}: |-
+  {{ .Values.configValues }}`
